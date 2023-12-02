@@ -1,0 +1,143 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+header{
+    grid-area: header;
+    background-color: rgb(218, 255, 150);
+    }
+    menu{
+    grid-area: menu;
+    background-color:  white;
+    width: 100%;
+    }
+    main{
+    grid-area: main;
+    background-color: white;
+    width: 100%;
+    }
+    footer{
+    grid-area: footer;
+    background-color: rgb(27, 32, 33);
+    }
+    .grid-container{
+        display: grid;
+        grid-template-areas:
+        "header header"
+        "menu main"
+        "footer footer";
+        gap: 10px;
+        }
+
+        .menu-lateral {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        }
+        .sub-menú {
+            color: rgb(137, 2, 62);
+            margin: 4px;
+            text-align: start;
+        }
+        .Grid-layout {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .productos {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid rgb(234, 99, 140);
+        }
+        .image {
+            width: 250px;
+            padding: 60px;
+            margin: 4px;
+        }
+        .boton-compra{
+            display: block;
+            justify-content: center;
+            padding: 10px;
+            margin: auto;
+            width: 200px;
+            text-align: center;
+            background-color: rgb(234, 99, 140);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .sub-menú {
+            font-size: 16px;
+            font-family: 'Raleway', sans-serif;
+            margin: 10px;
+        }
+        .destacado {
+            font-size: 20px;
+            font-family: 'Raleway', sans-serif;
+            color: rgb(137, 2, 62);
+        }
+        .sub-destacado {
+            font-size: 12px;
+            font-family: 'Raleway', sans-serif;
+            color: rgb(48, 52, 63);
+            margin: 4px;
+        }
+        .sub-destacadob {
+            font-size: 14px;
+            font-family: 'Raleway', sans-serif;
+            color: rgb(240,57,177);
+            margin: 4px;
+        }
+        .header-texto {
+            font-size: 34px;
+            font-family: 'Quicksand', sans-serif;
+            margin: 0px;
+            background-color: black;
+            color: white;
+        }
+        .header-subtexto {
+            font-size: 22px;
+            font-family: 'Quicksand', sans-serif;
+            padding: 20px;
+            margin: 0px;
+
+        }
+        .titulo-producto {
+            display: flex;
+            flex-direction: column;
+            font-size: 18px;
+            font-family: 'Raleway', sans-serif;
+            color: rgb(137, 2, 62);
+        }
+        .descripcion-producto{
+            display: flex;
+            flex-direction: column;
+            font-size: 14px;
+            font-family: 'Kurale', sans-serif;
+            color: rgb(48, 52, 63);
+        }
+        .precio{
+            display: flex;
+            flex-direction: column;
+            font-size: 24px;
+            font-family: 'Raleway', sans-serif;
+            padding: 4px;
+            margin: 4px;
+            text-align: center;
+
+        }
+
+        .footer {
+            font-size: 14px;
+            font-family: 'Quicksand', sans-serif;
+            color: white;
+            
+        }
+        .footer-derecho {
+            display: flex;
+            justify-content: space-around;
+            color: rgb(255, 217, 218);
+        }
